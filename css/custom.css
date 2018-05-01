@@ -1,0 +1,182 @@
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+	padding-top: 30px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+
+a {
+  color: #fff;
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #fec503;
+}
+
+.navbar-custom {
+  background-color: #40739e;
+  border-color: transparent;
+  margin-bottom: 50px;
+}
+
+.navbar-custom .navbar-brand {
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #fbc531;
+}
+
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+
+.navbar-custom .navbar-toggle {
+  background-color: #fbc531;
+  border: none;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #fbc531;
+}
+
+.navbar-custom .nav li a {
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: white;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #fbc531;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #e1b12c;
+}
+
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #e1b12c;
+}
+
+.carousel-inner > .item > img,.carousel-inner > .item > a > img { 
+	width: 100%; margin: auto;
+}
+
+@media (max-width: 768px) {
+	.carousel-caption h1{
+		font-size: 18px;
+	}
+	.carousel-caption h2{
+		font-size: 14px;
+		margin-bottom: -2px;
+	}
+}
+
+section {
+  padding: 10px 0;
+}
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+section h3.section-subheading {
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 75px;
+}
+@media (min-width: 768px) {
+  section {
+    padding: 50px 0;
+  }
+}
+
+.bg-light-gray {
+  background-color: #eeeeee;
+}
+
+.jumbotron {
+	background-color: #2c5871;
+}
+
+.jumbotron h2, p {
+	color: #fff;
+	font-family: sans-serif;
+}
+
+.thumbnail {
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.thumbnail p {
+	color: #000;
+}
+
+#kontak {
+	background-color: #34495e;
+}
+
+#kontak h3{
+	color: #fff;
+	line-height: 70px;
+}
+
+#kontak .form-group textarea {
+	height: 85px;
+}
+
+.btn-success {
+	width: 100%;
+}
+
+footer {
+	padding-top: 10px;
+	color: #fff;
+	height: 50px;
+	background-color: #2c3e50;
+	font-size: 18px;
+}
+
+footer .list-inline .social-buttons {
+	float: right;
+}
+
+@media (max-width: 768px) {
+	 footer {
+		height: 80px;
+		text-align: center;
+		line-height: 30px;
+		}
+}
