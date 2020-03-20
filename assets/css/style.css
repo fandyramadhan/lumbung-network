@@ -1,0 +1,241 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+}
+
+body {
+    background: url('../img/gradient-bg.png');
+    background: url('../img/gradient-bg.png');
+    background: url('../img/gradient-bg.png');
+    background: url('../img/gradient-bg.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+    outline: none;
+    border-color: #b3ff3f;
+    box-shadow: #b3ff3f;
+}
+
+.content{
+    padding: 70px 0;
+}
+
+.m-25 {
+    margin-top: 10%;
+}
+
+.box-login {
+    position: absolute;
+    top: 20%;
+}
+
+.wrapper {
+    display: block;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* top layer */
+    z-index: 9999;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    /* full screen */
+    width: 100vw;
+    height: 100vh;
+    /* transparent black */
+    background: rgba(0, 0, 0, 0.7);
+    /* middle layer, i.e. appears below the sidebar */
+    z-index: 998;
+    opacity: 0;
+    /* animate the transition */
+    transition: all 0.5s ease-in-out;
+}
+/* display .overlay when it has the .active class */
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    /* top right corner of the sidebar */
+    top: 10px;
+    right: 10px;
+}
+
+.icon-bottom {
+    font-size: 25px;
+}
+
+.nav-item p{
+    font-size: 12px;
+}
+
+.nav-item {
+    height: 70px;
+    padding: 0 !important;
+}
+
+.nav-link {
+    padding: 0 !important;
+    padding-left: 3px !important;
+    padding-top: 10px !important;
+    margin: 0 !important;
+    width: 70px;
+}
+
+.fmenu li {
+    padding: 0 1.5em;
+}
+.fmenu li a {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #a7a8a8;
+    font-weight: 400;
+}
+
+.fmenu li .active {
+    color: #00b894;
+}
+
+.fmenu li a:before {
+    display: block;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 6px;
+    margin: 0 auto;
+}
+
+.bg-gradient {
+    background: #fdd32a;
+    background-image: linear-gradient(to right, #FFDD3C , #FFF192);
+    height: 200px;
+    border-radius: 0 0 30px 30px;
+}
+
+.btn-warning {
+    background: #f1c40f !important;
+}
+
+.btn {
+    font-size: 10px !important;
+}
+
+.icon-menu2 {
+    font-size: 50px;
+    color: #00b894;
+}
+
+.icon-menu {
+    font-size: 30px;
+    color: #2ecc71;
+    margin: 10px;
+}
+
+.bg-green {
+    background: #d5fff7 !important;
+}
+
+.bg-blue {
+    background: #3498db !important;
+}
+
+.bg-yellow {
+    background: #f1c40f !important;
+}
+
+.bg-purple {
+    background: #9b59b6 !important;
+}
+
+.bg-red {
+    background: #e74c3c !important;
+}
+
+.box-icon {
+    background: #b1ffef;
+    border-radius: 10px;
+}
+
+.icon-ppob dd {
+    font-size: 10px !important;
+}
+
+.mt-min-10 {
+    margin-top: -35px;
+}
+
+.mt-min-30 {
+    margin-top: -180px;
+}
+
+.first-content {
+    font-size: 12px;
+}
+
+#ex3 .fa-stack[data-count]:after {
+    position: absolute;
+    right: 0%;
+    top: 1%;
+    content: attr(data-count);
+    font-size: 50%;
+    padding: .6em;
+    border-radius: 50%;
+    line-height: .8em;
+    color: white;
+    background: rgba(255, 0, 0, 0.85);
+    text-align: center;
+    min-width: 1em;
+    font-weight: bold;
+  }
+
+.p1 {
+    font-size: 20px !important;
+}
+
+.p3 {
+    font-size: 20px !important;
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 14px !important;
+        margin-bottom: 2px !important;
+    }
+
+    span {
+        font-size: 12px;
+    }
+
+    small {
+        font-size: 10px !important;
+    }
+
+    hr {
+        margin-top: 3px !important;
+        margin-bottom: 3px !important;
+    }
+
+
+}
